@@ -1,0 +1,41 @@
+ul {
+  width: 15%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul li {
+  font-size: 30px;
+  background: lightgrey;
+  padding: 1px;
+  margin: 0 0 3px 0;
+}
+
+li:hover {
+  background-color: lightblue;
+  width: 110%;
+  color: white;
+}
+
+li a {
+   display: block;
+   text-decoration: none;
+   color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+p::selection {
+  background-color: orange;
+}
